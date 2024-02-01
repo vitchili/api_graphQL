@@ -15,7 +15,7 @@ Para utilizar, após o clone do repositório:
 
 5) Rode as migrations com as seeds dentro do container: php artisan migrate --seed
 
-6) Acesse o /graphiql em: localhost:8083/graphiql (ou troque a porta do docker-compose.yaml, caso esteja ocupada).
+6) Acesse o /graphiql em: localhost:8083/graphiql (ou troque as portas ao app e db no docker-compose.yaml, caso estejam ocupadas).
 
 7) Navegue pela Docs do GraphQL
 
