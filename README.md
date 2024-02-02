@@ -7,13 +7,13 @@ Para utilizar, após o clone do repositório:
 
 1) Suba o container: docker-compose up -d --build
 
-2) Renomeie o .env.example para .env dentro da /api
+2) Em /api, renomeie o .env.example para .env
 
 3) Acesse o container com:
    3.1) docker ps //para ver o id do container
    3.2) docker exec -it <ID_DO_CONTAINER> bash
 
-5) Rode as migrations com as seeds dentro do container: php artisan migrate --seed
+5) Rode as migrations com as seeds dentro do container, em /api: php artisan migrate --seed
 
 6) Acesse o /graphiql em: localhost:8083/graphiql (ou troque as portas ao app e db no docker-compose.yaml, caso estejam ocupadas).
 
