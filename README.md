@@ -9,7 +9,7 @@ Para utilizar, após o clone do repositório:
 
 2) Em /api, renomeie o .env.example para .env
 
-3) Acesse o container com:
+3) Acesse o container do php-fpm com:
    3.1) docker ps //para ver o id do container
    3.2) docker exec -it <ID_DO_CONTAINER> bash
 
